@@ -1,6 +1,6 @@
 # Template file for 'xplr'
 pkgname=xplr
-version=0.14.3
+version=0.21.8
 revision=1
 archs="x86_64*"
 hostmakedepends="tar"
@@ -15,11 +15,11 @@ distfiles="${homepage}/releases/download/v${version}/${pkgname}-linux.tar.gz
 	${homepage}/raw/v${version}/src/init.lua
 	${homepage}/raw/v${version}/assets/desktop/${pkgname}.desktop"
 
-checksum="39686ea1cdd1803ed334b19700c59e2e9b2294a28a585f2420b1f8fdfddf33b4
- 393e9f5a12c614e476ff7067b3fd330dc63304e92d6c3762fa9120cedc7e6b9c
- bad22089fb474285b73037a069dcbc54432242f97264544c8b368f2763a9772b
- 1366bbea16fcc66c99f0ab2b11f65ec1a0d8e97b38294f5b3c6c64b1e6667dd4
- f71844576ef72820b9baddd34c49a04e1f0655dcc88c693eb509589907bdf86f"
+checksum="cd6c88c9121434b26fe3bf44ea0c93a33c171a72322e72dfd092ba44f6ad4362
+	393e9f5a12c614e476ff7067b3fd330dc63304e92d6c3762fa9120cedc7e6b9c
+	ff41e41618a92d3670ebd134e6bf6a13d21aa0218055d5182fbb2357de14c6a0
+	19945a2ee356413abc14441fdffead227086b34c29906053fa399ad7f75e5210
+	b5bf579f8939d48731ad6f2b2f72643b93cc6ed6a45bc590aad214ffa0067749"
 
 tags="file-manager rust"
 
